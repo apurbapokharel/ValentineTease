@@ -24,7 +24,7 @@ body {
 }
 
 #elapseClock {
-    text-align: right;
+    text-align: center;
     font-size: 18px;
     margin-top: 10px;
     margin-bottom: 10px
