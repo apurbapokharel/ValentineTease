@@ -19,6 +19,9 @@ $(function () {
 	setInterval(function () {
 		garden.render()
 	}, Garden.options.growSpeed)
+
+	$("#myDivTwo").css("margin-top", ($window.height() - 60));
+
 });
 $(window).resize(function () {
 	var b = $(window).width();
